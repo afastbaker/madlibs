@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="js/scripts.js"></script>
+   <title>A fantastical adventure</title>
+  </head>
+  <body>
+   <div class="container">
+     <h1>Fill in the blanks to write your story!</h1>
+     <div id="blanks">
+       <form>
+         <div class="form-group">
+           <label for="country">A country</label>
+           <input id="country" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="adverb1">adverb</label>
+           <input id="adverb1" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="adjective">adjective</label>
+           <input id="adjective" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="animal">animal</label>
+           <input id="animal" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="verb">verb ending in "ing"</label>
+           <input id="verb" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="adverb2">An adverb</label>
+           <input id="adverb2" class="form-control" type="text">
+         </div>
+
+         <button type="submit" class="btn">Show me the story!</button>
+       </form>
+     </div>
+
+     <div id="story">
+       <h1>A fantastical adventure</h1>
+       <p>If you are traveling in, <span class="country"></span> and to find yourself cross a pirahna filled river here's how to do it:<span class="adverb1"></span> Pirahnas are more <span class="adjective"></span> during the day, so cross the river at night." Avoid areas with netted<span class="animal"></span>"traps pirahnas may be, <span class="verb"></span> there looking to<span class="adverb2"></span> them</p>
+     </div>
+   </div>
+ </body>
+</html>
